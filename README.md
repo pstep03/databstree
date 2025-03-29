@@ -23,28 +23,18 @@ A Binary Search Tree (BST) implementation in C++ for storing and managing data e
    - For **Windows**, **macOS**, and **Linux** users:  
      - Using **g++**:  
        ```sh
-       g++ database.cpp states.cpp -o database
+        g++ -std=c++11 database.cpp states.cpp -o database
        ```  
      - Using **clang** (on **macOS** or systems with Clang):  
        ```sh
-       clang++ database.cpp states.cpp -o database
+        clang++ -std=c++11 database.cpp states.cpp -o database
        ```  
 
 4. **Run the program**:  
    ```sh
    ./database
    ```
-
-5. **Known issues**:
-   - **Windows**: If the program does not run using **step 4**, try the following instead:
-     ```sh
-     database
-     ```
-   - **macOS**: If the program does not compile and returns an error, compile with the following:
-     ```sh
-     g++ -std=c++11 database.cpp states.cpp -o database
-     ```
-     **OR**
-     ```sh
-     clang++ -std=c++11 database.cpp states.cpp -o database
-     ```
+   or (Windows - CMD)
+   ```sh
+   database
+   ```
